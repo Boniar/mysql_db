@@ -9,5 +9,6 @@ sudo mysql_secure_installation
 echo 'Sprawdzam status procesu systemowego MySQL'
 sudo systemctl status mysql.service
 #sudo systemctl start mysql
-echo 'Logowanie do serwera MySQL i wykonuje skrypt SQL'
+echo 'Logouje sie do serwera MySQL i wykonuje skrypt SQL'
 sudo  mysql -u root -p < create_db.sql
+echo 'Skrypt wykonany pomyslnie.Pozdrawiam'
