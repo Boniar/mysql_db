@@ -20,7 +20,7 @@ PRIMARY KEY (post_id),
 UNIQUE (user_id)
 );
 
-CREATE TABLE COMMENT (
+CREATE TABLE comment (
 User_id INT(10),
 Post_id INT(10),
 Comment_id INT(10),
