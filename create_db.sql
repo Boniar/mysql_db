@@ -6,7 +6,7 @@ User_id INT(10),
 Firstname VARCHAR(20) NOT NULL,
 Lastname VARCHAR(30) NOT NULL,
 Email VARCHAR(20) NOT NULL,
-password VARCHAR(20) NOT NULL,
+Password VARCHAR(20) NOT NULL,
 Role ENUM('user', 'admin'),
 PRIMARY KEY (user_id)
 );
